@@ -1,4 +1,4 @@
-export default class Comment {
+export default class User {
   _id: string | undefined
   username: string | undefined
   password: string | undefined

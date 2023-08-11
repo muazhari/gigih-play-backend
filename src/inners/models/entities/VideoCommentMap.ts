@@ -1,4 +1,4 @@
-export default class Comment {
+export default class VideoCommentMap {
   _id: string | undefined
   videoId: string | undefined
   commentId: string | undefined
