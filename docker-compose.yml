@@ -6,7 +6,7 @@ services:
     volumes:
       - .:/app
     command:
-      - "yarn dev"
+      - "yarn start"
   ds-1:
     image: mongo:latest
     ports:
