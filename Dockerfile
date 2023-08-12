@@ -6,5 +6,7 @@ WORKDIR /app
 
 COPY . .
 
-RUN yarn global add nodemon typescript
+RUN yarn global add nodemon typescript typesync
+RUN typesync
+
 RUN yarn install
