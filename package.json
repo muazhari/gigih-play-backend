@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start": "yarn build && node ./dist/src/App.js",
-    "build": "tsc",
+    "build": "tsc --build",
     "dev": "nodemon --legacy-watch --watch ./src --ext ts --exec \"yarn start\"",
     "test": "nyc ts-mocha --parallel --watch ./test/**/*.spec.ts"
   },
