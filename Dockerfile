@@ -6,5 +6,5 @@ WORKDIR /app
 
 COPY . .
 
-RUN yarn global add nodemon
+RUN yarn global add nodemon typescript
 RUN yarn install
