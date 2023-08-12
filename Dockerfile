@@ -6,4 +6,5 @@ WORKDIR /app
 
 COPY . .
 
+RUN yarn global add nodemon
 RUN yarn install
